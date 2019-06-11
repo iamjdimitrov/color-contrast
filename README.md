@@ -2,7 +2,7 @@
 
 Check the contrast ratio between two colors according to the **WCAG 2.0** guidelines for contrast accessibility.
 
-The compliance levels are two: AA and AAA, the latter being more strict.
+The compliance levels are two: **AA** and **AAA**, the latter being more restrictive.
 
 ## Usage
 
