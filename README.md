@@ -10,8 +10,6 @@ The compliance levels are two: AA and AAA, the latter being more strict.
 calculateContrast("#ffffff", "#000000");
 ```
 
----
-
 ## Compliance Requirements
 
 The required Contrast Ratio depends on the Compliance Level, Font Size and Font Weight.
@@ -57,4 +55,5 @@ The required Contrast Ratio depends on the Compliance Level, Font Size and Font 
 
 ---
 
-The formula for calculating the contrast ratio can be found at https://www.w3.org/TR/WCAG20-TECHS/G18.html#G18-tests
+The formula for calculating the contrast ratio can be found at:
+https://www.w3.org/TR/WCAG20-TECHS/G18.html#G18-tests
