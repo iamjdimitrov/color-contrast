@@ -1,12 +1,20 @@
-# Color Contrast Ratio Checker for Accessible Colors (WCAG 2.0)
+# Color Contrast Ratio Checker for Accessible Colors
 
-Check the contrast ratio between two colors according to the WCAG 2.0 guidelines for contrast accessibility.
+Check the contrast ratio between two colors according to the **WCAG 2.0** guidelines for contrast accessibility.
 
 The compliance levels are two: AA and AAA, the latter being more strict.
 
+## Usage
+
+```javascript
+calculateContrast("#ffffff", "#000000");
+```
+
 ---
 
-Contrast Ratio, Font Size and Font Weight requirements for color compliance:
+## Compliance Requirements
+
+The required Contrast Ratio depends on the Compliance Level, Font Size and Font Weight.
 
 <table>
   <thead>
@@ -49,8 +57,4 @@ Contrast Ratio, Font Size and Font Weight requirements for color compliance:
 
 ---
 
-## Usage
-
-```javascript
-calculateContrast("#ffffff", "#000000");
-```
+The formula for calculating the contrast ratio can be found at https://www.w3.org/TR/WCAG20-TECHS/G18.html#G18-tests
