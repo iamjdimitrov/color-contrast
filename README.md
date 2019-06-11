@@ -56,4 +56,5 @@ The required Contrast Ratio depends on the Compliance Level, Font Size and Font 
 ---
 
 The formula for calculating the contrast ratio can be found at:
+
 https://www.w3.org/TR/WCAG20-TECHS/G18.html#G18-tests
