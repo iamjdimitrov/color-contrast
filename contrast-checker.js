@@ -1,6 +1,10 @@
 function calculateLuminance(color) {
   color = color.replace("#", "").trim();
-  /^([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.test(color) ? color : /^([a-f\d]{1})([a-f\d]{1})([a-f\d]{1})$/i.test(color) ? color = color.replace(/^([a-f\d]{1})([a-f\d]{1})([a-f\d]{1})/i, "$1$1$2$2$3$3") : null;
+  /^([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.test(color)
+    ? color
+    : /^([a-f\d]{1})([a-f\d]{1})([a-f\d]{1})$/i.test(color)
+    ? color = color.replace(/^([a-f\d]{1})([a-f\d]{1})([a-f\d]{1})/i, "$1$1$2$2$3$3")
+    : null;
   var triplets = /^([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(color);
   for (var rgb = [], weighted = [], t = 1; t <= 3; t++) {
     rgb[t] = parseInt(triplets[t], 16) / 255;
